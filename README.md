@@ -4,4 +4,4 @@ This project uses flask as a backend and BeatifulSoup Library of Python to web s
 
 Made By: Souradeep Kar  
 Personal Project  
-Tech Stack: Flask as backend and Beatiful Soup Library for web scraping
+Tech Stack: Flask as backend and BeatifulSoup python Library for web scraping
