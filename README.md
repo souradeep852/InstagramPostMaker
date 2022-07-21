@@ -11,7 +11,7 @@ Tech Stack:
 * Backend Technologies:-  
 &emsp; **Flask** backend framework, **BeautifulSoup** python library for web scraping the data from website.  
   
-### What does the project aim to do? ###  
+## What does the project aim to do? ##  
   
 Sites like [indiatimes.com](https://indiatimes.com), [timesofindia.com](https://timesofindia.com), [news18.com](https://news18.com) provides us with truckloads of news from all different domains and contexts. As an end user, if you wish to find news of one particular kind, you don't necessary need to get bombarded with all kinds of news stories. This project aims to do the same in the context of extracting the latest news in the information technology domain and present the headlines to the user in a very visually appealing way (in the form of a post) that can be downloaded and uploaded on social media platforms later on.  
   
@@ -21,7 +21,7 @@ For this I have chosen the site [businesstoday.in](https://www.businesstoday.in/
 
 https://user-images.githubusercontent.com/91742260/180193691-0762b9d7-9663-45c4-ae2c-4898d3749bd2.mp4  
   
-And the screen recording embedded below demonstrates how those headlines are put into the form of an instagram post. Every time the window is reloaded, one image gets selected randomly out of the five images present in the [images](https://github.com/souradeep852/InstagramPostMaker/static/images/) folder, as the background of the post. The images present in this folder have been made using [Canva](https://canva.com). The "Download Post" button then allows you to download and share it.
+And the screen recording embedded below demonstrates how those headlines are put into the form of an instagram post. Every time the window is reloaded, one image gets selected randomly out of the five images present in the [images](https://github.com/souradeep852/InstagramPostMaker/tree/main/static/images/) folder, as the background of the post. The images present in this folder have been made using [Canva](https://canva.com). The "Download Post" button then allows you to download and share it.
 
   
   
