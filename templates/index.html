@@ -1,15 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Technology News Post</title>
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css">
 </head>
 <body>
-    <div style="width: 614px; height: 700px; position: relative;">
-        <img src="" alt="bgimage" id="bg">
-        <span style="position: absolute; color:aliceblue; white-space: pre-line; font-size:large; top:200px; left:70px; width: 500px;">{{News|safe}}</span>
+    <div class="bottom-6 m-auto relative" id="container" style="width: 614px; height: 700px; ">
+        <img src="" alt="bgimage" id="bg" width="614px" height="700px">
+        <span class="font-mono text-lg absolute text-white whitespace-pre-line text-justify" id="News" style="top:200px; left:70px; width: 500px;">{{News|safe}}</span>
+    </div>
+
+    <div id="canvasWrapper" class="mb-10 w-screen flex justify-center items-center">
+        <button
+            class="text-white p-3 rounded-md font-sans text-xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500"
+            onclick="download()">Download Post</button>
     </div>
 
     <script>
@@ -17,6 +24,17 @@
         var background=new Image();
         background.src="static/images/" + (Math.floor(Math.random()*(5))+1) + ".png";
         newbg.src=background.src;
+    </script>
+    <script src="/static/js/h2c.min.js"></script>
+    <script>
+        function download() {
+            html2canvas(document.getElementById("container"), {height: 700, width: 614}).then(canvas => {
+                var a=document.createElement('a');
+                a.href= canvas.toDataURL("images/jpeg").replace("image/jpeg", "image/octet-stream");
+                a.download='technewspost.jpg';
+                a.click();
+            });
+        }
     </script>
 </body>
 </html>

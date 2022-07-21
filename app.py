@@ -12,5 +12,5 @@ def index():
     outerdata=soup.find_all("div", class_="widget-listing", limit=6)
     for data in outerdata:
         news=data.div.div.a['title']
-        finalnews+= "\u2022 " + news + '\n' + '\n' + '\n'
+        finalnews+= "\u2022 " + news + '\n' + '\n'
     return render_template("index.html", News=finalnews)
