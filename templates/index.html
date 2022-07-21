@@ -7,8 +7,16 @@
     <title>Technology News Post</title>
 </head>
 <body>
-    <div name="News">
-        {{News|safe}}
+    <div style="width: 614px; height: 700px; position: relative;">
+        <img src="" alt="bgimage" id="bg">
+        <span style="position: absolute; color:aliceblue; white-space: pre-line; font-size:large; top:200px; left:70px; width: 500px;">{{News|safe}}</span>
     </div>
+
+    <script>
+        var newbg=document.getElementById("bg");
+        var background=new Image();
+        background.src="static/images/" + (Math.floor(Math.random()*(5))+1) + ".png";
+        newbg.src=background.src;
+    </script>
 </body>
 </html>
