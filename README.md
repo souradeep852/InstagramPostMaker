@@ -113,4 +113,4 @@ The file [h2c.min.js](static/js/h2c.min.js) has been downloaded from [html2canva
 The above mentioned code runs as a response to the on-click listener that has been put on the ```Download Post``` button, converting the contents of the html div tag into an URL and dowloading that file as a .jpg image.   
   
   
-## Thank you. I hope you found the demonstration of how the app works and the whole documentation useful. ##
+<h2 align="center"> Thank you. I hope you found the demonstration of how the app works and the whole documentation useful. </h2>
