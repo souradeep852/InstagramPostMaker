@@ -13,7 +13,7 @@ Tech Stack:
   
 ## What does the project aim to do? ##  
   
-Sites like [indiatimes.com](https://indiatimes.com), [timesofindia.com](https://timesofindia.com), [news18.com](https://news18.com) provides us with truckloads of news from all different domains and contexts. As an end user, if you wish to find news of one particular kind, you don't necessary need to get bombarded with all kinds of news stories. This project aims to do the same in the context of extracting the latest news in the information technology domain and present the headlines to the user in a very visually appealing way (in the form of a post) that can be downloaded and uploaded on social media platforms later on.  
+Sites like [indiatimes.com](https://indiatimes.com), [timesofindia.com](https://timesofindia.com), [news18.com](https://news18.com) provide us with truckloads of news from all different domains and contexts. As an end user, if you wish to find news of one particular kind, you don't necessary need to get bombarded with all kinds of news stories. This project aims to do the same in the context of extracting the latest news in the information technology domain and present the headlines to the user in a very visually appealing way (in the form of a post) that can be downloaded and uploaded on social media platforms later on. Hence, the project has automated the work of fetching latest news from reliable website in real time and making an uploadable post out of it. 
   
 For this I have chosen the site [businesstoday.in](https://www.businesstoday.in/technology/news) from where I will scrap the news headlines using BeautifulSoup library in Python. For example, the screen recording embedded below demonstrates the list of headlines present in that webpage.
 
